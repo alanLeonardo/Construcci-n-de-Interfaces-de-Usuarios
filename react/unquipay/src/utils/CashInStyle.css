@@ -1,0 +1,61 @@
+/* Dispositivos muy pequeños (teléfonos de hasta 768px de anchura) */
+/* No se define ninguna media query porque este es el estilo por
+   defecto utilizado por Bootstrap 3 */
+
+/* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
+@media (min-width: 576px) { }
+
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (min-width: 576px) { }
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: 768px) { }
+
+@media (min-width: 768px)  {
+  .containerCashin {
+    border: 3px solid #d6d7da;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    flex-direction: column;
+    width: 70%;
+  }
+}
+
+.titulo {
+  display: flex;
+  justify-content: left;
+  font-size: x-large;
+  width: 30%;
+  height: 8%;
+}
+
+.label {
+    width: 50%;
+}
+
+.columnLabel {
+    width: 48%;
+}
+
+.dosColumnas {
+   display: flex;
+   justify-content: space-between;
+   container: fluid;
+   width: 80%;
+}
+
+.buttons {
+   width: 40%;
+}
+
+.dosColumnasButton {
+   display: flex;
+   justify-content: space-between;
+   container: fluid;
+   width: 60%;
+}
+
+

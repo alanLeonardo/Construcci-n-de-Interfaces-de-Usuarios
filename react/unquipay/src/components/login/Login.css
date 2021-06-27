@@ -1,0 +1,50 @@
+/* Dispositivos muy pequeños (teléfonos de hasta 768px de anchura) */
+/* No se define ninguna media query porque este es el estilo por
+   defecto utilizado por Bootstrap 3 */
+
+/* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
+@media (min-width: 576px) { }
+
+/* Dispositivos medianos (ordenadores, anchura mayor
+ o igual a 992px) */
+@media (min-width: 576px) { }
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: 768px) { }
+
+@media all and (min-width: 480px) {
+    .Login {
+        /* background: url('../../bg/bg9.jpg'); */
+        display: flex;
+        padding: 150px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.parrafo{
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    top: -30px;
+    left: 20%;
+}
+
+
+.btn-block {
+    display: block;
+    width: 50%;
+    position: relative;
+    top: 6px;
+}
+
+.btn-link {
+    display: block;
+    width: 50%;
+    position: relative;
+    top: 6px;
+    left: 25%;
+}

@@ -1,0 +1,30 @@
+@media all and (min-width: 480px) {
+    .Transfer {
+        /* background: url('../../bg/bg9.jpg') no-repeat center center fixed; */
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        display:flex;
+        padding: 80px 0;
+    }
+
+    .Transfer form {
+        margin: 0 auto;
+        max-width: 320px
+    }
+}
+
+.title{
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    top: -30px;
+    left: 20%;
+}
+
+.subtitle{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    top: -30px;
+}
